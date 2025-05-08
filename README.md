@@ -13,9 +13,8 @@ It follows the object-oriented programming paradigm and uses custom classes for 
 
 ## ⚙️ How to Start the Command Interpreter
 
-You must have Python 3.8.5 installed. On Ubuntu 20.04 LTS:
+You must have Python 3.8.5 installed. On your machine:
 
-```bash
 ./console.py
 
 Make sure the script has execution permissions:
