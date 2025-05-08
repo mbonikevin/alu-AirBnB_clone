@@ -3,6 +3,8 @@
 This module demonstrates a simple function.
 """
 
+
 def my_func():
     """Prints a greeting message."""
     print("Hello")
+
