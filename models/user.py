@@ -1,7 +1,12 @@
 #!/usr/bin/python3
-"""Defines the User class."""
+from models.base_model import BaseModel
 
 
-class User:
-    """Represents a user."""
-    pass
+class User(BaseModel):
+    """creates a user"""
+
+    # public attributes of a user
+    email = ""
+    password = ""
+    first_name = ""
+    last_name = ""

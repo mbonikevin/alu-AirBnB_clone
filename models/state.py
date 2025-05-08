@@ -1,7 +1,13 @@
 #!/usr/bin/python3
-"""Defines the State class."""
+
+from models.base_model import BaseModel
 
 
-class State:
-    """Represents a state."""
-    pass
+class State(BaseModel):
+    """State: estate location
+
+    Args:
+        BaseModel (BaseModel): Parent class
+    """
+
+    name = ""

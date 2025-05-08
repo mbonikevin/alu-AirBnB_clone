@@ -1,7 +1,10 @@
 #!/usr/bin/python3
-"""Defines the City class."""
+
+from models.base_model import BaseModel
 
 
-class City:
-    """Represents a city."""
-    pass
+class City(BaseModel):
+    """City class that will be used to represent a city"""
+
+    state_id = ""  # it will be the state.id
+    name = ""

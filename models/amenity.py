@@ -1,7 +1,13 @@
 #!/usr/bin/python3
-"""Defines the Amenity class."""
+
+from models.base_model import BaseModel
 
 
-class Amenity:
-    """Represents an amenity."""
-    pass
+class Amenity(BaseModel):
+    """_summary_
+
+    Args:
+        BaseModel (_type_): _description_
+    """
+
+    name = ""
