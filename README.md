@@ -18,7 +18,7 @@ You must have Python 3.8.5 installed. On your machine:
 ./console.py
 
 Make sure the script has execution permissions:
-```chmod +x console.py
+```chmod +x console.py```
 
 ## 💡 How to Use
 
